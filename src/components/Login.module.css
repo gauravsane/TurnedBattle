@@ -1,0 +1,72 @@
+.container {
+    height: 100%;
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px solid;
+  }
+  
+  .innerBox {
+    min-width: 60vh;
+    height: 60vh;
+    width: fit-content;
+    background-color: rgb(255, 246, 246);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+  }
+  
+  .footer button {
+    outline: none;
+    border: none;
+    background-color: #9900ff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px 16px;
+    width: 40%;
+    align-self: center;
+    text-align: center;
+    transition: 100ms;
+    cursor: pointer;
+  }
+  
+  .footer button:disabled {
+    background-color: gray !important;
+  }
+  
+  .footer button:hover {
+    background-color: #aa2aff;
+  }
+  
+  .footer p {
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .footer p span a {
+    font-weight: bold;
+    color: #9900ff;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-decoration: none;
+  }

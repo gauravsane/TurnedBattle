@@ -1,0 +1,36 @@
+.MuiDialog-paperWidthSm {
+    max-width: 100% ;
+    width: 100% ;
+    /* background-color: rgb(142, 208, 212) ; */
+    background: radial-gradient(
+      rgb(136, 255, 229) 60%,
+      rgba(243, 243, 56, 0.664)
+    );
+
+    cursor: pointer;
+    border-radius: 30px ;
+    text-align: center;
+  }
+  h4 {
+    color: rgb(138, 95, 255) ;
+    margin-top: 20px;
+    font-family:monospace
+  }
+
+  .MuiDialogContentText-root {
+    font-size: medium;
+  }
+  .MuiTypography-h6 {
+    font-size: 35px ;
+    color: rgb(255, 0, 0) ;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .MuiDialogActions-root {
+    display: unset ;
+  }
+  .MuiButton-label:hover {
+    color: rgb(89, 0, 255) ;
+    font-size: large;
+  }
+  

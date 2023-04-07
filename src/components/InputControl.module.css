@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 40px;
+  }
+  
+  .container label {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #313131;
+  }
+  
+  .container input {
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    padding: 10px 15px;
+    color: #000;
+  }
+  
+  .container input:hover {
+    border-color: #ccc;
+  }
+  
+  .container input:focus {
+    border-color: #9900ff;
+  }

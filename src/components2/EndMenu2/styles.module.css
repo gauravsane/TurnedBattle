@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .startButton {
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px gray;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 50px;
+    padding: 10px;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .img{
+    text-align: center;
+  }
